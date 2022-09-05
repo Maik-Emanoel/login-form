@@ -339,7 +339,7 @@ form p:nth-child(7) a {
 
 @media (max-width: 375px) {
   .checkbox label {
-    right: -12%;
+    right: -14%;
   }
 }
 
