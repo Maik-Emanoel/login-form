@@ -222,7 +222,7 @@ form p:nth-child(7) a {
 
 /* ============== Responsividade ================ */
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
   .container {
     width: 90%;
     padding-inline: 6rem;
@@ -235,14 +235,16 @@ form p:nth-child(7) a {
   }
 
   form p:nth-child(7) {
-    width: 33.3rem;
+    width: fit-content;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   body {
     display: grid;
     grid-template-columns: 1fr;
+
+    min-height: 1000px;
   }
 
   .container {
@@ -268,7 +270,11 @@ form p:nth-child(7) a {
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
+  body {
+    min-height: 812px;
+  }
+
   .col-a header{
     margin: 4rem 0 3rem 2rem;
   }
@@ -300,18 +306,16 @@ form p:nth-child(7) a {
   }
 
   .checkbox {
-    width: 30%;
+    width: fit-content;
     height: 20px;
-
     margin-bottom: 0;
 
     position: relative;
+    gap: 5px;
   }
 
   .checkbox label {
-    position: absolute;
-    right: 2%; 
-    bottom: -2px;
+    position: initial;
   }
 
   #checkbox {
@@ -321,11 +325,15 @@ form p:nth-child(7) a {
 
   form div {
     margin-bottom: 1.9rem;
+    justify-content: space-between;
   }
 
   form div p{
-    width: 70%;
-    text-align: right;
+    width: fit-content;
+  }
+
+  form div p a{
+    width: fit-content;
   }
 
   .btn {
@@ -337,24 +345,14 @@ form p:nth-child(7) a {
   }
 }
 
-@media (max-width: 375px) {
-  .checkbox label {
-    right: -14%;
-  }
-}
-
 @media (max-width: 320px) {
   body {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  form div p a{
-    width: 80%;
-  }
-
-  .checkbox label {
-    right: -26%;
+  .checkbox {
+    gap: 3px;
   }
 
   form p:nth-child(7) {
