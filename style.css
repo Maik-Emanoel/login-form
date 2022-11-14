@@ -27,7 +27,7 @@ body {
 }
 
 .col-b {
-  background: url(./images/side-image-2x.jpg) no-repeat center;
+  background: url(./assets/side-image-2x.jpg) no-repeat center;
   background-size: cover;
 
   height: 100%;
@@ -95,7 +95,7 @@ form label:nth-child(3) {
   width: 33.5rem;
   height: 4.4rem;
 
-  background: url(./images/mail.svg) no-repeat left;
+  background: url(./assets/mail.svg) no-repeat left;
   background-position: 12px;
   padding-left: 3.8rem;
   margin-bottom: 2rem;
@@ -108,7 +108,7 @@ form label:nth-child(3) {
 }
 
 #email:focus-within {
-  background: url(./images/mail-focus.svg) no-repeat left;
+  background: url(./assets/mail-focus.svg) no-repeat left;
   background-position: 12px;
 
   border: 1px solid #FFC632;
@@ -125,7 +125,7 @@ form label:nth-child(3) {
   width: 33.5rem;
   height: 4.4rem;
 
-  background: url(./images/lock.svg), url(./images/eye.svg);
+  background: url(./assets/lock.svg), url(./assets/eye.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: 12px, 303px;
   padding-left: 3.8rem;
@@ -159,7 +159,7 @@ form label:nth-child(3) {
 }
 
 #checkbox:checked {
-  background: url(./images/check.svg) center, var(--primary-color);
+  background: url(./assets/check.svg) center, var(--primary-color);
   width: 2.2rem;
   height: 2.2rem;
 
@@ -294,7 +294,7 @@ form p:nth-child(7) a {
   }
 
   #password {
-    background: url(./images/lock.svg), url(./images/eye.svg);
+    background: url(./assets/lock.svg), url(./assets/eye.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: 12px, 97%;
   }
